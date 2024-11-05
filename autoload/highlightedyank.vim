@@ -98,7 +98,7 @@ function! s:highlight(...) abort "{{{
     return
   endif
 
-  let hi_duration = s:get('highlight_duration', 1000)
+  let hi_duration = s:get('highlight_duration', 200)
   if hi_duration == 0
     return
   endif
